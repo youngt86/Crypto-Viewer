@@ -7,22 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AC561021374A4BAC8FE8671 /* Pods_Crypto_Viewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03D2AB5D80261225C64B1962 /* Pods_Crypto_Viewer.framework */; };
+		C40B06CC29B0279300557C5A /* CustomMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40B06CB29B0279300557C5A /* CustomMarkerView.swift */; };
+		C486EBD929B17D440057F0CE /* ChartHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C486EBD829B17D440057F0CE /* ChartHelper.swift */; };
+		C4923EBA29A6FFCC000F9813 /* CoinManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4923EB929A6FFCC000F9813 /* CoinManager.swift */; };
+		C4923EBC29A71A0C000F9813 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4923EBB29A71A0C000F9813 /* CoinData.swift */; };
+		C4923EBE29A72208000F9813 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4923EBD29A72208000F9813 /* CoinModel.swift */; };
+		C4E6CC4229B2C2B5005C359E /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E6CC4129B2C2B5005C359E /* CustomButton.swift */; };
 		C4EDF49829A5842000C24862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EDF49729A5842000C24862 /* AppDelegate.swift */; };
 		C4EDF49A29A5842000C24862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EDF49929A5842000C24862 /* SceneDelegate.swift */; };
 		C4EDF49C29A5842000C24862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EDF49B29A5842000C24862 /* ViewController.swift */; };
-		C4EDF49F29A5842000C24862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EDF49D29A5842000C24862 /* Main.storyboard */; };
 		C4EDF4A129A5842000C24862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EDF4A029A5842000C24862 /* Assets.xcassets */; };
-		C4EDF4A429A5842000C24862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EDF4A229A5842000C24862 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C4EDF49429A5842000C24862 /* CoinFlip Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoinFlip Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03D2AB5D80261225C64B1962 /* Pods_Crypto_Viewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Viewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		065076CEBB93EAE935171F0B /* Pods-Crypto Viewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Viewer.release.xcconfig"; path = "Target Support Files/Pods-Crypto Viewer/Pods-Crypto Viewer.release.xcconfig"; sourceTree = "<group>"; };
+		7634479A97BADF4856514AE5 /* Pods-Crypto Viewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Viewer.debug.xcconfig"; path = "Target Support Files/Pods-Crypto Viewer/Pods-Crypto Viewer.debug.xcconfig"; sourceTree = "<group>"; };
+		C40B06CB29B0279300557C5A /* CustomMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMarkerView.swift; sourceTree = "<group>"; };
+		C486EBD829B17D440057F0CE /* ChartHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartHelper.swift; sourceTree = "<group>"; };
+		C4923EB929A6FFCC000F9813 /* CoinManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinManager.swift; sourceTree = "<group>"; };
+		C4923EBB29A71A0C000F9813 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		C4923EBD29A72208000F9813 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		C4E6CC4129B2C2B5005C359E /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		C4EDF49429A5842000C24862 /* Crypto Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4EDF49729A5842000C24862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4EDF49929A5842000C24862 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C4EDF49B29A5842000C24862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C4EDF49E29A5842000C24862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4EDF4A029A5842000C24862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4EDF4A329A5842000C24862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4EDF4A529A5842000C24862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -31,60 +43,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AC561021374A4BAC8FE8671 /* Pods_Crypto_Viewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CACE24784A7F43194076B1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03D2AB5D80261225C64B1962 /* Pods_Crypto_Viewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C4EDF48B29A5842000C24862 = {
 			isa = PBXGroup;
 			children = (
-				C4EDF49629A5842000C24862 /* CoinFlip Project */,
+				C4EDF49629A5842000C24862 /* Crypto Viewer */,
 				C4EDF49529A5842000C24862 /* Products */,
+				D86109390502DC7E39617BB3 /* Pods */,
+				0CACE24784A7F43194076B1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		C4EDF49529A5842000C24862 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4EDF49429A5842000C24862 /* CoinFlip Project.app */,
+				C4EDF49429A5842000C24862 /* Crypto Viewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C4EDF49629A5842000C24862 /* CoinFlip Project */ = {
+		C4EDF49629A5842000C24862 /* Crypto Viewer */ = {
 			isa = PBXGroup;
 			children = (
 				C4EDF49729A5842000C24862 /* AppDelegate.swift */,
 				C4EDF49929A5842000C24862 /* SceneDelegate.swift */,
 				C4EDF49B29A5842000C24862 /* ViewController.swift */,
-				C4EDF49D29A5842000C24862 /* Main.storyboard */,
 				C4EDF4A029A5842000C24862 /* Assets.xcassets */,
-				C4EDF4A229A5842000C24862 /* LaunchScreen.storyboard */,
 				C4EDF4A529A5842000C24862 /* Info.plist */,
+				C4923EB929A6FFCC000F9813 /* CoinManager.swift */,
+				C4923EBB29A71A0C000F9813 /* CoinData.swift */,
+				C4923EBD29A72208000F9813 /* CoinModel.swift */,
+				C40B06CB29B0279300557C5A /* CustomMarkerView.swift */,
+				C486EBD829B17D440057F0CE /* ChartHelper.swift */,
+				C4E6CC4129B2C2B5005C359E /* CustomButton.swift */,
 			);
-			path = "CoinFlip Project";
+			path = "Crypto Viewer";
+			sourceTree = "<group>";
+		};
+		D86109390502DC7E39617BB3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7634479A97BADF4856514AE5 /* Pods-Crypto Viewer.debug.xcconfig */,
+				065076CEBB93EAE935171F0B /* Pods-Crypto Viewer.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4EDF49329A5842000C24862 /* CoinFlip Project */ = {
+		C4EDF49329A5842000C24862 /* Crypto Viewer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4EDF4A829A5842000C24862 /* Build configuration list for PBXNativeTarget "CoinFlip Project" */;
+			buildConfigurationList = C4EDF4A829A5842000C24862 /* Build configuration list for PBXNativeTarget "Crypto Viewer" */;
 			buildPhases = (
+				71A16D73E6C3D56CD8AA5F5A /* [CP] Check Pods Manifest.lock */,
 				C4EDF49029A5842000C24862 /* Sources */,
 				C4EDF49129A5842000C24862 /* Frameworks */,
 				C4EDF49229A5842000C24862 /* Resources */,
+				DCC859A43432E03A5FC2E1F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "CoinFlip Project";
+			name = "Crypto Viewer";
 			productName = "CoinFlip Project";
-			productReference = C4EDF49429A5842000C24862 /* CoinFlip Project.app */;
+			productReference = C4EDF49429A5842000C24862 /* Crypto Viewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +140,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4EDF48F29A5842000C24862 /* Build configuration list for PBXProject "CoinFlip Project" */;
+			buildConfigurationList = C4EDF48F29A5842000C24862 /* Build configuration list for PBXProject "Crypto Viewer" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +153,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4EDF49329A5842000C24862 /* CoinFlip Project */,
+				C4EDF49329A5842000C24862 /* Crypto Viewer */,
 			);
 		};
 /* End PBXProject section */
@@ -125,45 +163,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4EDF4A429A5842000C24862 /* LaunchScreen.storyboard in Resources */,
 				C4EDF4A129A5842000C24862 /* Assets.xcassets in Resources */,
-				C4EDF49F29A5842000C24862 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71A16D73E6C3D56CD8AA5F5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto Viewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCC859A43432E03A5FC2E1F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crypto Viewer/Pods-Crypto Viewer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Crypto Viewer/Pods-Crypto Viewer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Crypto Viewer/Pods-Crypto Viewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C4EDF49029A5842000C24862 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4923EBA29A6FFCC000F9813 /* CoinManager.swift in Sources */,
 				C4EDF49C29A5842000C24862 /* ViewController.swift in Sources */,
+				C4E6CC4229B2C2B5005C359E /* CustomButton.swift in Sources */,
+				C4923EBC29A71A0C000F9813 /* CoinData.swift in Sources */,
+				C40B06CC29B0279300557C5A /* CustomMarkerView.swift in Sources */,
 				C4EDF49829A5842000C24862 /* AppDelegate.swift in Sources */,
+				C4923EBE29A72208000F9813 /* CoinModel.swift in Sources */,
+				C486EBD929B17D440057F0CE /* ChartHelper.swift in Sources */,
 				C4EDF49A29A5842000C24862 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C4EDF49D29A5842000C24862 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4EDF49E29A5842000C24862 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C4EDF4A229A5842000C24862 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C4EDF4A329A5842000C24862 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C4EDF4A629A5842000C24862 /* Debug */ = {
@@ -216,7 +281,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +347,7 @@
 		};
 		C4EDF4A929A5842000C24862 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7634479A97BADF4856514AE5 /* Pods-Crypto Viewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,18 +355,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BAM74F339M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CoinFlip Project/Info.plist";
+				INFOPLIST_FILE = "Crypto Viewer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youngt.CoinFlip-Project";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youngt.Crypto-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -310,6 +378,7 @@
 		};
 		C4EDF4AA29A5842000C24862 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 065076CEBB93EAE935171F0B /* Pods-Crypto Viewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -317,18 +386,20 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BAM74F339M;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "CoinFlip Project/Info.plist";
+				INFOPLIST_FILE = "Crypto Viewer/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.youngt.CoinFlip-Project";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.youngt.Crypto-Viewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +410,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4EDF48F29A5842000C24862 /* Build configuration list for PBXProject "CoinFlip Project" */ = {
+		C4EDF48F29A5842000C24862 /* Build configuration list for PBXProject "Crypto Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EDF4A629A5842000C24862 /* Debug */,
@@ -348,7 +419,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4EDF4A829A5842000C24862 /* Build configuration list for PBXNativeTarget "CoinFlip Project" */ = {
+		C4EDF4A829A5842000C24862 /* Build configuration list for PBXNativeTarget "Crypto Viewer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4EDF4A929A5842000C24862 /* Debug */,
